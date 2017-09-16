@@ -1,4 +1,4 @@
-KLCPopup_Bindings
+KLCPopup - Xamarin.iOS Bindings
 ========
 
 KLCPopup is a simple and flexible iOS class for presenting any custom view as a popup. It includes a variety of options for controlling how your popup appears and behaves.
@@ -11,7 +11,7 @@ KLCPopup is a simple and flexible iOS class for presenting any custom view as a 
 
 ##Usage
 
-Please refer to the original github repo for the usage or checkout the Xamarin example
+Please refer to the original github repo for the usage or checkout the Xamarin.iOS example
 [KLCPopup](https://github.com/jmascia/KLCPopup)
 
 
