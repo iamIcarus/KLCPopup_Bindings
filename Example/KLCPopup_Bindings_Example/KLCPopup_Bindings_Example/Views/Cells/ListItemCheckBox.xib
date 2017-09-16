@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListItemCheckBox" rowHeight="46" id="cxk-wN-pdQ" customClass="ListItemCheckBox">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuZ-aQ-dBL">
+                        <rect key="frame" x="4" y="3" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="5I4-Zk-SYr"/>
+                            <constraint firstAttribute="height" constant="40" id="snm-XR-Fjv"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="icon-checkbox-grey.png"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cks-gn-bfG">
+                        <rect key="frame" x="50" y="12" width="270" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="270" id="jW3-wj-KxI"/>
+                            <constraint firstAttribute="height" constant="21" id="yKs-sA-Eqm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cks-gn-bfG" firstAttribute="leading" secondItem="vuZ-aQ-dBL" secondAttribute="trailing" constant="6" id="4Hz-v8-MaL"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cks-gn-bfG" secondAttribute="trailing" constant="-8" id="OLm-Ex-sDH"/>
+                    <constraint firstItem="vuZ-aQ-dBL" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leadingMargin" constant="-4" id="Oc0-1h-cgC"/>
+                    <constraint firstItem="cks-gn-bfG" firstAttribute="centerY" secondItem="YTl-1W-gDM" secondAttribute="centerY" id="PHS-N3-goz"/>
+                    <constraint firstItem="vuZ-aQ-dBL" firstAttribute="centerY" secondItem="YTl-1W-gDM" secondAttribute="centerY" id="yDE-C9-9jS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="CheckBoxButton" destination="vuZ-aQ-dBL" id="name-outlet-vuZ-aQ-dBL"/>
+                <outlet property="TitleLabel" destination="cks-gn-bfG" id="name-outlet-cks-gn-bfG"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-checkbox-grey.png" width="30" height="30"/>
+    </resources>
+</document>

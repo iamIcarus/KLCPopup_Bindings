@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLCPopup_Bindings_Example", "KLCPopup_Bindings_Example\KLCPopup_Bindings_Example.csproj", "{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}.Release|iPhone.Build.0 = Release|iPhone
+		{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CF7D6A5C-373B-459C-91BB-9090EFAE57A4}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
