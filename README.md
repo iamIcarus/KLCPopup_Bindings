@@ -11,8 +11,8 @@ KLCPopup is a simple and flexible iOS class for presenting any custom view as a 
 
 ##Usage
 
-Please refer to the original github repo for the usage or checkout the Xamarin.iOS example
-[KLCPopup](https://github.com/jmascia/KLCPopup)
+Please refer to the original github repo [KLCPopup](https://github.com/jmascia/KLCPopup) for the usage or checkout the Xamarin.iOS example
+
 
 
 
