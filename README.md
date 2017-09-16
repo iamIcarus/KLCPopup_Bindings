@@ -12,7 +12,7 @@ KLCPopup is a simple and flexible iOS class for presenting any custom view as a 
 ##Usage
 
 Please refer to the original github repo for the usage or checkout the Xamarin example
-[a link](https://github.com/jmascia/KLCPopup)
+[KLCPopup](https://github.com/jmascia/KLCPopup)
 
 
 
@@ -26,9 +26,6 @@ Please refer to the original github repo for the usage or checkout the Xamarin e
 
 ### Devices
 `KLCPopup` supports **iPhone** and **iPad**.
-
-### ARC
-`KLCPopup` requires ARC.
 
 ### TODO
 - Add support for keyboard show/hide.
